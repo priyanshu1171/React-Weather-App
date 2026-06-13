@@ -1,16 +1,149 @@
-# React + Vite
+# 🌦️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built with React.js and Vite that provides real-time weather information for any city worldwide. The application fetches live weather data from a weather API and displays detailed weather conditions through a clean and user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Features
 
-## React Compiler
+✅ Search weather by city name
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Real-time weather updates
 
-## Expanding the ESLint configuration
+✅ Temperature display
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Humidity information
+
+✅ Weather condition details
+
+✅ Responsive user interface
+
+✅ Fast performance using Vite
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- JavaScript (ES6+)
+- CSS3
+
+### API Integration
+- Weather API
+
+### Version Control
+- Git
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+mini-project-react
+│
+├── public
+│
+├── src
+│   ├── assets
+│   ├── App.jsx
+│   ├── WeatherApp.jsx
+│   ├── SearchBox.jsx
+│   ├── InfoBox.jsx
+│   ├── App.css
+│   ├── WeatherApp.css
+│   ├── SearchBox.css
+│   ├── InfoBox.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone Repository
+
+```bash
+git clone https://github.com/priyanshu1171/React-Weather-App.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd React-Weather-App
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Development Server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+Add your project screenshots here.
+
+```text
+screenshots/homepage.png
+screenshots/weather-result.png
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project I gained practical experience in:
+
+- React Component Architecture
+- React Hooks
+- State Management
+- API Integration
+- Handling User Input
+- Frontend Development
+- Responsive Design
+- Git & GitHub Workflow
+
+---
+
+## 🔮 Future Enhancements
+
+- 5-Day Weather Forecast
+- Geolocation Weather Detection
+- Dark Mode Support
+- Weather History Tracking
+- Multiple City Comparison
+- Improved UI/UX Design
+
+---
+
+## 👨‍💻 Author
+
+**Priyanshu**
+
+Computer Science Engineering Student
+
+GitHub: https://github.com/priyanshu1171
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It motivates me to build more projects and continuously improve my development skills.
